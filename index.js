@@ -60,16 +60,7 @@ function reply() {
 }
 
 
-function leader() {
-    if (  record.textContent > guest.textContent ) {
-  textToHighlight.style.backgroundColor = "yellow";
-  textToHighlight.style.color = "black";;
- } else if ( record.textContent < guest.textContent) {
-  console.log("You can apply for a learner's permit");
- } else {
-  console.log("You are not eligible to drive yet");
- }
-}
+
 
 
 
